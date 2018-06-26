@@ -1,7 +1,7 @@
 function theBeatlesPlay(instruments, musicians) {
   var comments = []
   for (var i = 0; i < instruments.length; i++) {
-    comments.push(musicians[i] + ' plays ', instruments[i])
+    comments.push(musicians[i] + ' plays ' + instruments[i])
   }
   
   return comments
